@@ -1,69 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-
 :root {
-    /* Color Variables */
-    --primary-color: #C5D5EA; /* Columbia blue */
-    --secondary-color: #759EB8; /* Air superiority blue */
-    --accent-color: #7392B7; /* Silver lake blue */
-    --additional-accent-color: #B3C5D7; /* Powder blue */
-    
-    /* Font Variables */
-    --heading-font: 'Roboto', sans-serif;
-    --paragraph-font: 'Arial', sans-serif;
-    
-    /* Navigation Variables */
-    --nav-bg-color: #333333;
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: #ff9900;
-    --nav-hover-bg-color: #444444;
-  }
+  /* Color Variables */
+  --primary-color: #C5D5EA; /* Columbia blue */
+  --secondary-color: #759EB8; /* Air superiority blue */
+  --accent1-color: #7392B7; /* Silver lake blue */
+  --accent2-color: #B3C5D7; /* Powder blue */
+  --accent3-color: #D8E1E9; /* Alice blue */
   
-
-
-  body {
-    font-family: var(--paragraph-font); /* Set default font-family using the paragraph-font variable */
-    max-width: 960px; /* Limit the width of the document to 960 pixels */
-    padding: 20px; /* Set padding around the document to 20 pixels */
-  }
+  /* Font Variables */
+  --heading-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Arial', sans-serif;
   
+  /* Navigation Variables */
+  --nav-bg-color: #333333;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #ff9900;
+  --nav-hover-bg-color: #444444;
+}
 
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
 
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font); /* Set font-family using the heading-font variable */
-    color: #333333; /* Choose your preferred color */
-  }
-  
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: #333333;
+}
 
-  header {
-    background-color: var(--accent1-color); /* Use the primary color for the background */
-    padding: 20px; /* Add padding to the header */
-    color: #ffffff; /* Set text color to white for better visibility */
-  }
-
+header {
+  background-color: var(--accent1-color);
+  padding: 20px;
+  color: #ffffff;
+}
 
 p {
-    padding: 25px;
+  padding: 25px;
 }
-  
+
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
+  background-color: var(--nav-bg-color);
+  font-size: 1.2rem;
+  display: flex;
 }
 
 nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
+  display: block;
+  color: var(--nav-link-color);
+  text-decoration: none;
+  padding: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+nav a:link,
+nav a:visited {
+  color: var(--nav-link-color);
 }
 
 nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-bg-color);
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-bg-color);
 }
+
+/* Add two more H4 headings to meet the requirement */
+h4 {
+  font-family: var(--heading-font);
+  color: #333333;
+}
+
+/* You can define additional CSS styles as needed below this line */
