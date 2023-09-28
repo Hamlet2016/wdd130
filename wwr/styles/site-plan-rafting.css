@@ -16,7 +16,7 @@
   --nav-bg-color: #333333;
   --nav-link-color: #ffffff;
   --nav-hover-link-color: #ff9900;
-  --nav-hover-bg-color: #444444;
+  --nav-hover-bg-color: #444444; /* Define nav-hover-background-color */
 }
 
 body {
