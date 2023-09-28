@@ -1,3 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Class Selectors */
+
+
+  /* CSS comment header for the "Class Selectors" section */
+
+/* Class selector for the "box" class */
+/* Selector de clase para la clase "box" */
+.box {
+    margin: 1rem; /* Set margin to 1rem (matches root font size) */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem; /* Set padding to 1rem (matches root font size) */
+    background-color: #D8E1E9; /* Replace with your background color */
+    color: #000000; /* Replace with your text color */
+  }
+
+  aside {
+    width: 20em;
+    text-align: center;
+  }
+  
+  
+
+
+
+
 nav {
 
     background-color: steelblue;
@@ -59,4 +89,15 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 
+}
+
+
+main img {
+    float: right;
+}
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
