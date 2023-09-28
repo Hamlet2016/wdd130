@@ -6,14 +6,14 @@
   --secondary-color: #759EB8; /* Air superiority blue */
   --accent1-color: #7392B7; /* Silver lake blue */
   --accent2-color: #B3C5D7; /* Powder blue */
-  --accent3-color: #D8E1E9; /* Alice blue */
+  /*--accent3-color: #D8E1E9;  Alice blue */
   
   /* Font Variables */
   --heading-font: 'Roboto', sans-serif;
   --paragraph-font: 'Arial', sans-serif;
   
   /* Navigation Variables */
-  --nav-bg-color: #333333;
+  --nav-background-color: #333333;
   --nav-link-color: #ffffff;
   --nav-hover-link-color: #ff9900;
   --nav-hover-background-color: #444444; /* Define nav-hover-background-color */
