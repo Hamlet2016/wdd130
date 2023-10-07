@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+:root {
+    /* Color Variables */
+    --primary-color: #C5D5EA; /* Columbia blue */
+    --secondary-color: #759EB8; /* Air superiority blue */
+    --accent1-color: #7392B7; /* Silver lake blue */
+    --accent2-color: #B3C5D7; /* Powder blue */
+    /*--accent3-color: #D8E1E9;  Alice blue */
+    
+    /* Font Variables */
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Arial', sans-serif;
+    
+    /* Navigation Variables */
+    --nav-background-color: #333333;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #ff9900;
+    --nav-hover-background-color: #444444; /* Define nav-hover-background-color */
+  }
+
+
+/* Style headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif; /* Change the font family as desired */
+  color: #333; /* Change the font color as desired */
+}
+
+p {
+  font-family: Arial, sans-serif; /* Change the font family as desired */
+  color: #666; /* Change the font color as desired */
+  line-height: 1.5; /* Adjust line height for better readability */
+  margin-bottom: 20px; /* Add some margin at the bottom of paragraphs */
+}
+
+/* Remove underlines from social media links */
+.sociallinks a {
+  text-decoration: none;
+}
+
+
+/* Limit the entire width of the page */
+main {
+  max-width: 400px; /* Adjust the maximum width as desired */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Limit the entire width of the page */
+body, header, head {
+  max-width: 400px; /* Adjust the maximum width as desired */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+
+header {
+  display: flex;
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center child elements horizontally */
+}
+
+/* Adjust the margin for the navigation */
+nav {
+  margin-top: 20px; /* Add some spacing below the logo */
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none; /* Remove the default list bullet */
+  padding: 0; /* Remove any default padding */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the navigation links */
+nav li {
+  margin-right: 20px; /* Add spacing between the menu items */
+}
+
+/* Remove margin-right from the last navigation item to avoid extra space */
+nav li:last-child {
+  margin-right: 0;
+}
+
+/* Remove underlines from header links */
+header a {
+  text-decoration: none;
+}
+
+
+/* Position the hero container as relative */
+.hero {
+  position: relative;
+}
+
+/* Style the hero container */
+.hero {
+  position: relative;
+  max-width: 100%; /* Set maximum width to 100% */
+}
+
+/* Style the hero image */
+.hero img {
+  display: block;
+  width: 100%; /* Set image width to 100% */
+  height: auto; /* Allow the height to adjust proportionally */
+}
+
+/* Style the h1 element for Rafting Company Name */
+.hero h1 {
+  position: absolute;
+  top: 10px; /* Adjust the top position to create space */
+  left: 0;
+  right: 0;
+  margin: 0 auto; /* Center the text horizontally */
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  text-align: center;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: fit-content; /* Adjust the width to fit the content */
+}
+
+
+
+
+
+/* Style the article element */
+.hero article {
+  position: absolute;
+  top: 50%; /* Adjust the top position as needed */
+  left: 0;
+  right: 0;
+  margin: 0 auto; /* Center the article horizontally */
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  max-width: 100px; /* Adjust the maximum width as needed */
+  color: #fff;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
+/* Style the article element */
+.hero article {
+  position: absolute;
+  top: 50%; /* Adjust the top position as needed */
+  left: 0;
+  right: 0;
+  margin: 0 auto; /* Center the article horizontally */
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  color: #fff;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Style the img element inside the article */
+.hero article img {
+  float: right; /* Float the image to the right of the text */
+  margin-left: 20px; /* Add some spacing between the image and text */
+}
+
+
+/* Style the article element */
+.hero article {
+  position: absolute;
+  top: 50%; /* Adjust the top position as needed */
+  left: 0;
+  right: 0;
+  margin: 0 auto; /* Center the article horizontally */
+  background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
+  padding: 20px;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  color: #fff;
+  z-index: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* Style the article elements in the main section */
+main article {
+  max-width: 400px; /* Adjust the maximum width for the article */
+  margin: 0 auto; /* Center the article horizontally */
+}
+
+/* Style the img elements inside the article */
+main article img {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+  height: auto; /* Allow the height to adjust proportionally */
+}
