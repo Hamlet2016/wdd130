@@ -41,14 +41,8 @@ p {
 
 
 /* Limit the entire width of the page */
-main {
-  max-width: 400px; /* Adjust the maximum width as desired */
-  margin: 0 auto; /* Center the content horizontally */
-}
-
-/* Limit the entire width of the page */
-body, header, head {
-  max-width: 400px; /* Adjust the maximum width as desired */
+body {
+  max-width: 800px; /* Adjust the maximum width as desired */
   margin: 0 auto; /* Center the content horizontally */
 }
 
@@ -87,12 +81,6 @@ header a {
   text-decoration: none;
 }
 
-
-/* Position the hero container as relative */
-.hero {
-  position: relative;
-}
-
 /* Style the hero container */
 .hero {
   position: relative;
@@ -127,49 +115,11 @@ header a {
 
 
 
-
-
-/* Style the article element */
-.hero article {
-  position: absolute;
-  top: 50%; /* Adjust the top position as needed */
-  left: 0;
-  right: 0;
-  margin: 0 auto; /* Center the article horizontally */
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  max-width: 100px; /* Adjust the maximum width as needed */
-  color: #fff;
-  z-index: 2;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-
-
-
-/* Style the article element */
-.hero article {
-  position: absolute;
-  top: 50%; /* Adjust the top position as needed */
-  left: 0;
-  right: 0;
-  margin: 0 auto; /* Center the article horizontally */
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  max-width: 400px; /* Adjust the maximum width as needed */
-  color: #fff;
-  z-index: 2;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 /* Style the img element inside the article */
 .hero article img {
   float: right; /* Float the image to the right of the text */
   margin-left: 20px; /* Add some spacing between the image and text */
+  width: 200px;
 }
 
 
@@ -182,13 +132,15 @@ header a {
   margin: 0 auto; /* Center the article horizontally */
   background-color: rgba(0, 0, 0, 0.7); /* Background color with opacity */
   padding: 20px;
-  max-width: 400px; /* Adjust the maximum width as needed */
+  max-width: 600px; /* Adjust the maximum width as needed */
   color: #fff;
-  z-index: 2;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+  }
+
+ .hero article p {
+
+  color: #fff;
+
+ }
 
 
 /* Style the article elements in the main section */
@@ -201,4 +153,17 @@ main article {
 main article img {
   max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
   height: auto; /* Allow the height to adjust proportionally */
+}
+
+
+
+
+footer .sociallinks img {
+  width: 40px; 
+  height: auto; 
+}
+
+
+footer .sociallinks img[src*="instagram-icon.png"]:hover {
+  filter: brightness(0.5); 
 }
