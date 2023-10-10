@@ -97,6 +97,8 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+    max-width: 840px;
+    margin: 0 auto;
 
 }
 
@@ -111,8 +113,10 @@ aside h2 {
     left: 150px;
 }
 
-header, footer {
-    max-width: 840px;
+
+
+header {
+    max-width: 50px;
     margin: 0 auto;
 }
 
