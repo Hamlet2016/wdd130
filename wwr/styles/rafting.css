@@ -159,7 +159,7 @@ main article img {
 
 
 footer .sociallinks img {
-  width: 40px; 
+  width: 45px; 
   height: auto; 
 }
 
@@ -313,7 +313,7 @@ nav {
   padding: 10px;
   background-color: #333;
   color: #fff;
-  font-size: 5px;
+  font-size: 10px;
   margin: 0;
 }
 
@@ -321,7 +321,7 @@ nav {
 
 /* Style the footer */
 footer {
-  background-color: #333;
+  background-color: #f0f0f0;
   color: #fff;
   padding: 20px;
   text-align: right; /* Align content to the right */
@@ -336,11 +336,11 @@ footer {
 
 /* Style individual social icons */
 .sociallinks a {
-  margin-left: 10px; /* Add some spacing between the icons */
+  margin-left: 15px; /* Add some spacing between the icons */
 }
 
 /* Style social icons */
 .sociallinks img {
-  width: 40px; /* Adjust the width as needed */
-  height: 40px; /* Adjust the height as needed */
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
 }
