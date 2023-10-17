@@ -238,6 +238,13 @@ nav {
   color: #333;
 }
 
+
+
+
+
+
+
+
 /* Style the paragraphs within the section */
 .history-section p {
   font-size: 16px;
@@ -252,4 +259,88 @@ nav {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+/* Style the Adventures section */
+.adventures-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center; /* Center the content horizontally */
+}
+
+/* Style the section title */
+.section-title {
+  font-size: 24px;
+  margin-top: 0;
+  color: #333;
+}
+
+/* Style the container for adventures */
+.adventures-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style individual adventure figures */
+.adventure {
+  width: 18%; /* Adjust this value for the desired image width */
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+/* Style the images within adventures */
+.adventure img {
+  
+  width: 100px; /* Establece un ancho fijo para todas las imágenes */
+  height: 75px; /* Establece una altura fija para todas las imágenes */
+  object-fit: cover; /* Mantiene la proporción de aspecto original, pero corta las imágenes si es necesario para ajustarlas al tamaño fijo */
+
+}
+
+/* Style the captions */
+.adventure figcaption {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 5px;
+  margin: 0;
+}
+
+
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: right; /* Align content to the right */
+}
+
+/* Style the social links container */
+.sociallinks {
+  display: flex;
+  justify-content: flex-end; /* Arrange items to the right */
+  align-items: center;
+}
+
+/* Style individual social icons */
+.sociallinks a {
+  margin-left: 10px; /* Add some spacing between the icons */
+}
+
+/* Style social icons */
+.sociallinks img {
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
 }
