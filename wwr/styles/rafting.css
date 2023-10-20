@@ -344,3 +344,107 @@ footer {
   width: 30px; /* Adjust the width as needed */
   height: 30px; /* Adjust the height as needed */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Content Styles */
+.main-content {
+  font-family: var(--paragraph-font);
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.company-info {
+  
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.company-info address {
+  font-size: 18px;
+}
+
+.employee-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.employee {
+  text-align: center;
+  margin: 20px;
+}
+
+.employee img {
+  border: 3px solid var(--primary-color);
+  border-radius: 50%;
+}
+
+.employee p {
+  font-weight: bold;
+}
+
+.contact-form {
+  background-color: #D8E1E9;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid var(--primary-color);
+}
+
+.contact-form fieldset {
+  border: none;
+  margin: 10px 0;
+}
+
+.contact-form legend {
+  font-weight: bold;
+}
+
+.contact-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #ff9900; /* Bright orange color */
+  color: white; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #ff6600; /* Slightly darker orange on hover */
+}

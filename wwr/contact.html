@@ -26,8 +26,81 @@
             </ul>
         </nav>
     </header>
-    <main>
-        
+    <main class="main-content">
+        <section class="company-info">
+            <h2>Contact Information</h2>
+            <address>
+                123 Main Street<br>
+                Adventureville, RA 54321<br>
+            </address>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: info@raftingcompany.com</p>
+            <!-- Embedded Google Map Here -->
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-72.123456!3d42.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDE1JzI1LjIiTiA3MsKwMTUnMTIuMSJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                    width="100%"
+                    height="400"
+                    style="border: 0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <p>John Doe, Rafting Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <p>Jane Smith, Adventure Specialist</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <p>Mike Johnson, Customer Support</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label for="inquiry">
+                        <input type="radio" id="inquiry" name="purpose" value="General Inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label for="reservation">
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question" required>
+                        Reservation Question
+                    </label>
+                    <label for="suggestion">
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion" required>
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                
+                <input type="submit" class="submit-button" value="Submit">
+            </form>
+        </section>
     </main>
     
     <footer>
