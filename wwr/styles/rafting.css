@@ -435,8 +435,8 @@ footer {
 }
 
 .contact-form button[type="submit"] {
-  background-color: #ff9900; /* Bright orange color */
-  color: white; /* White text color */
+  background-color: #ff9900; 
+  color: white; 
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -446,5 +446,5 @@ footer {
 }
 
 .contact-form button[type="submit"]:hover {
-  background-color: #ff6600; /* Slightly darker orange on hover */
+  background-color: #ff6600; 
 }
