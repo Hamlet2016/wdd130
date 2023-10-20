@@ -381,7 +381,7 @@ footer {
 .employee-profiles {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -392,7 +392,12 @@ footer {
 
 .employee img {
   border: 3px solid var(--primary-color);
-  border-radius: 50%;
+  border-radius: 10%;
+  max-width: 20%;
+  margin: 0 auto;
+
+
+  
 }
 
 .employee p {
@@ -404,6 +409,8 @@ footer {
   padding: 20px;
   border: 1px solid var(--primary-color);
   border-radius: 5px;
+   
+  
 }
 
 .contact-form label {
@@ -434,17 +441,13 @@ footer {
   margin-right: 5px;
 }
 
-.contact-form button[type="submit"] {
-  background-color: #ff9900; 
-  color: white; 
+.submit-button {
+  background-color: #ff9900; /* Bright orange color */
+  color: white; /* White text color */
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
   border-radius: 5px;
   transition: background-color 0.3s;
-}
-
-.contact-form button[type="submit"]:hover {
-  background-color: #ff6600; 
 }
