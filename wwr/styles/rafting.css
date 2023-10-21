@@ -228,7 +228,7 @@ nav {
 /* Style the History section */
 .history-section {
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 /* Style the section title */
@@ -450,4 +450,76 @@ footer {
   font-size: 16px;
   border-radius: 5px;
   transition: background-color 0.3s;
+}
+
+
+
+
+
+
+
+
+
+/* Main Content Styles */
+.new-main-class {
+  font-family: var(--paragraph-font);
+  text-align: center;
+  padding: 20px;
+}
+
+.cta-section {
+  background-color: var(--primary-color); /* Use your preferred color */
+  padding: 20px;
+  text-align: center; /* Center align text */
+}
+
+.cta-section h2 {
+  color: rgb(0, 0, 0); /* Use your preferred color */
+}
+
+/* Change font color for "Book Your Adventure" */
+.cta-section h2 span {
+  color: #ff9900; /* Change to the color you prefer (bright orange in this case) */
+}
+
+.trip-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.trip {
+  text-align: center;
+  margin: 20px;
+}
+
+.trip img {
+  width: 100%;
+  max-width: 300px; /* Adjust the max-width as needed */
+}
+
+.trip h3 {
+  margin-top: 10px;
+}
+
+.trip-table {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid var(--primary-color);
+  padding: 10px;
+}
+
+/* Add more styles as needed */
+
+/* Footer Styles */
+.wireframe-link {
+  display: block;
+  margin: 0 auto;
 }
