@@ -588,41 +588,48 @@ th, td {
   background-color: var(--accent2-color);
 }
 
+/* New CSS for grid layout */
 .grid-section {
-  
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.grid-section .grid-item {
-  width: 350px; /* Adjust this value to your desired square size */
-  height: 350px; /* This value should match the width to create squares */
-
-  /* This will center the image within the square */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.grid-section .grid-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* This will make the images fill the square without distortion */
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 20px; /* Gap between grid items */
+  text-align: center;
 }
 
 .grid-item {
-  text-align: center;
-  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .grid-item img {
-  width: 100%;
-  border: 3px solid var(--primary-color);
-  border-radius: 1%;
+  max-width: 100%; /* Restrict image width to fit grid item */
+  max-height: 100%; /* Restrict image height to fit grid item */
+  object-fit: cover; 
 }
 
-.grid-item p {
-  font-weight: bold;
+
+
+
+
+
+
+
+
+/* CSS for styling the Subscribe button */
+.subscribe-button {
+  background-color: #ff9900; /* Background color (adjust as needed) */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding for the button */
+  cursor: pointer; /* Cursor on hover to indicate interactivity */
+  font-size: 16px; /* Font size */
+  border-radius: 5px; /* Rounded corners for the button */
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+
+.subscribe-button:hover {
+  background-color: #ff6600; /* Background color on hover (slightly darker) */
 }
